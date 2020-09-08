@@ -16,11 +16,51 @@
   width: 350px;
   border-radius: 10px;
   overflow: hidden;
+  margin-right: 15px;
 }
 
 .searchResult__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.searchResult__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchResult__infoTop {
+  width: 40vw;
+}
+
+.searchResult__infoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.searchResult__infoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.searchResult__star {
+  color: red;
+}
+
+.searchResult__stars {
+  display: flex;
+  align-items: center;
+}
+
+.searchResult__price {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.searchResult__price > p {
+  text-align: right;
 }
